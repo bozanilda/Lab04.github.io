@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Presentación</title>
+    <link rel="stylesheet" href="css/porta.css">
+</head>
+<body>
+    <header>
+        <h1 class="titulo">¡Bienvenido a Mi Presentación!</h1>
+    </header>
+    <section class="intro">
+        <div class="foto">
+            <img src="yo.jpg" alt="Tu Foto">
+        </div>
+        <div class="informacion">
+            <h2 class="nombre">¡Hola! Soy Nilda</h2>
+            <p class="descripcion">Me encanta leer bastante, también me encanta mi carrera, me gusta aprender todos los días algo nuevo. Me gusta mucho los animales, en especial los gatos.</p>
+        </div>
+    </section>
+    <section class="experiencia">
+        <h2>Mi Experiencia</h2>
+        <p class="texto">Estudié Informática Administrativa en Infounsa, ahora estoy preparando mis prácticas para sacar mis papeles. Actualmente estoy estudiando Diseño y Desarrollo de Software para después convalidar con la UTP y poder ser una gran profesional.</p>
+    </section>
+    <section class="intereses">
+        <h2>Mis Intereses</h2>
+        <ul class="lista-intereses">
+            <li>Aprender idiomas</li>
+            <li>Leer libros</li>
+            <li>Practicar cursos</li>
+        </ul>
+        <button class="boton" onclick="mostrarIntereses()">Mostrar Más</button>
+    </section>
+
+    <section class="comidas-favoritas" style="display: none;">
+        <h2>Mis Comidas Favoritas</h2>
+        <ul class="lista-comidas">
+        <li>Pizza</li>
+        <li>Chicharron de Camarones</li>
+        <li>Ceviche</li>
+        </ul>
+    </section>
+    <button class="boton" id="mostrarComidas">Mostrar Comidas Favoritas</button>
+
+
+    <footer>
+        <p class="contacto">Contacto: <a href="mailto:nildaboza03@gmail.com" class="correo">nildaboza03@gmail.com</a></p>
+    </footer>
+    <script src="porta.js"></script>
+</body>
+</html>
